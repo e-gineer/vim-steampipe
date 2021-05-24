@@ -1,0 +1,29 @@
+*steampipe.txt*  basic vim/steampipe integration
+
+Author:  Nathan Wallace <https://github.com/e-gineer>
+License: ISC license
+Repo:    https://github.com/e-gineer/vim-steampipe
+
+
+                                      Type |gO| to see the table of contents.
+==============================================================================
+COMMANDS                                                 *steampipe-commands*
+
+These commands are only available if steampipe is in your PATH.
+
+                                                                 *:Steampipe*
+`:Steampipe` [args]         Invoke an arbitrary steampipe command.
+
+==============================================================================
+SETTINGS                                                 *steampipe-settings*
+
+*g:steampipe_align*
+    Allow vim-steampipe to align settings automatically with Tabularize.
+    Default: 0
+
+*g:steampipe_fold_sections*
+    Allow vim-steampipe to automatically fold (hide until unfolded) sections of
+    steampipe code.
+    Default: 0
+
+ vim:tw=78:et:ft=help:norl:
